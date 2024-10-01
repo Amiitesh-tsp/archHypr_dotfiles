@@ -1,1 +1,25 @@
-# archHypr_dotfiles
+<div align="center"> 
+  
+# Arch Hyprland Dotfiles 
+</div>
+
+![riceSS](2024-10-01-210141_hyprshot.png)
+
+</div>
+
+<div align="center">
+
+# Application
+
+</div>
+
+-   **Distro**: [Arch](https://archlinux.org)
+-   **Window manager**: [hyprland](https://github.com/hyprwm/Hyprland)
+-   **Top bar**: [waybar](https://github.com/Alexays/Waybar)
+-   **Terminal**: Konsole
+-   **Text editor**: [vim](https://github.com/vim/vim)
+-   **File manager**: [Dolphin](https://github.com/KDE/dolphin)
+-   **Application opener**: [rofi](https://github.com/davatorium/rofi)
+-   **Web browser**: [Brave](https://brave.com)
+-   **Visual candy**: [cbonsai](https://github.com/hortinstein/cbonsai)
+-   **Shell**: [fish](https://github.com/fish-shell/fish-shell)

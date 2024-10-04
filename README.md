@@ -16,8 +16,8 @@
 -   **Distro**: [Arch](https://archlinux.org)
 -   **Window manager**: [hyprland](https://github.com/hyprwm/Hyprland)
 -   **Top bar**: [waybar](https://github.com/Alexays/Waybar)
--   **Terminal**: Konsole
--   **Text editor**: [vim](https://github.com/vim/vim)
+-   **Terminal**: [Konsole](https://github.com/KDE/konsole)
+-   **Text editor**: [nvim](https://github.com/neovim/neovim)
 -   **File manager**: [Dolphin](https://github.com/KDE/dolphin)
 -   **Application opener**: [rofi](https://github.com/davatorium/rofi)
 -   **Web browser**: [Brave](https://brave.com)

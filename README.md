@@ -20,6 +20,6 @@
 -   **Text editor**: [nvim](https://github.com/neovim/neovim)
 -   **File manager**: [Dolphin](https://github.com/KDE/dolphin)
 -   **Application opener**: [rofi](https://github.com/davatorium/rofi)
--   **Web browser**: [Brave](https://brave.com)
+-   **Web browser**: [FireFox](https://www.mozilla.org/en-US/firefox/windows/)
 -   **Visual candy**: [cbonsai](https://github.com/hortinstein/cbonsai)
 -   **Shell**: [fish](https://github.com/fish-shell/fish-shell)

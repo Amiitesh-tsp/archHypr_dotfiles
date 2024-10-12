@@ -1,5 +1,5 @@
 vim.cmd("set expandtab")
-vim.cmd("set tabstop=2")
+vim.cmd("set tabstop=4")
 vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
 vim.g.mapleader = " "
@@ -26,6 +26,7 @@ local plugins = {
     {'L3MON4D3/LuaSnip'},
     {"hrsh7th/cmp-nvim-lsp"},
     {"saadparwaiz1/cmp_luasnip"},
+    {'akinsho/toggleterm.nvim', version = "*", config = true},
     {"rafamadriz/friendly-snippets"},  
     {
       'nvim-telescope/telescope.nvim', tag = '0.1.5',
@@ -53,6 +54,7 @@ local builtin = require("telescope.builtin")
 vim.keymap.set('n', '<C-p>', builtin.find_files, {})
 vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
 vim.keymap.set('n', '<C-n>', ':Neotree filesystem reveal left<CR>', {})
+vim.keymap.set('n', '<C-t>', ':ToggleTerm<CR>', {})
 
 
 
@@ -91,8 +93,9 @@ require("luasnip.loaders.from_vscode").lazy_load()
     })
 
 require("mason").setup()
+require("toggleterm").setup()
 require("mason-lspconfig").setup({
-  ensure_installed = {"lua_ls", "pylyzer", "ast_grep", "html", "cssls"}
+  ensure_installed = {"lua_ls", "pylyzer", "jdtls", "html", "cssls", "rust_analyzer"}
 })
 
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
@@ -100,7 +103,9 @@ local capabilities = require('cmp_nvim_lsp').default_capabilities()
 require("catppuccin").setup()
 vim.cmd.colorscheme "catppuccin"
 require("lspconfig").pylyzer.setup{}
-require("lspconfig").ast_grep.setup{}
+--require("lspconfig").ast_grep.setup{}
 require("lspconfig").lua_ls.setup{}
 require("lspconfig").html.setup{}
 require("lspconfig").cssls.setup{}
+require("lspconfig").jdtls.setup{}
+require("lspconfig").rust_analyzer.setup{}

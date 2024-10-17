@@ -23,3 +23,4 @@
 -   **Web browser**: [FireFox](https://www.mozilla.org/en-US/firefox/windows/)
 -   **Visual candy**: [cbonsai](https://github.com/hortinstein/cbonsai)
 -   **Shell**: [fish](https://github.com/fish-shell/fish-shell)
+-   **Bash Prompt**: [Starship Tokyo_night](https://starship.rs/)

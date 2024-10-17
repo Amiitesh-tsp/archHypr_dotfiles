@@ -61,7 +61,7 @@ vim.keymap.set('n', '<C-t>', ':ToggleTerm<CR>', {})
 
 local config = require("nvim-treesitter.configs")
 config.setup({
-  ensure_installed = {"lua", "javascript", "java", "python", "html", "css"},
+  ensure_installed = {"lua", "javascript", "java", "python", "html", "css", "go", "c", "cpp"},
   highlight = { enable = true },
 })
 local cmp = require('cmp')
@@ -95,7 +95,7 @@ require("luasnip.loaders.from_vscode").lazy_load()
 require("mason").setup()
 require("toggleterm").setup()
 require("mason-lspconfig").setup({
-  ensure_installed = {"lua_ls", "pylyzer", "jdtls", "html", "cssls", "rust_analyzer"}
+  ensure_installed = {"lua_ls", "pylyzer", "jdtls", "html", "cssls", "rust_analyzer", "gopls"}
 })
 
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
@@ -109,3 +109,4 @@ require("lspconfig").html.setup{}
 require("lspconfig").cssls.setup{}
 require("lspconfig").jdtls.setup{}
 require("lspconfig").rust_analyzer.setup{}
+require("lspconfig").gopls.setup{}

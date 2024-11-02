@@ -24,3 +24,28 @@
 -   **Visual candy**: [cbonsai](https://github.com/hortinstein/cbonsai)
 -   **Shell**: [fish](https://github.com/fish-shell/fish-shell)
 -   **Bash Prompt**: [Starship Tokyo_night](https://starship.rs/)
+
+<div align="center">
+  
+# New Configuration
+![riceSS2]()
+
+</div>
+
+<div align="center">
+
+# Application
+
+</div>
+
+-   **Distro**: [Arch](https://archlinux.org)
+-   **Window manager**: [hyprland](https://github.com/hyprwm/Hyprland)
+-   **Top bar**: [HyprPanel](https://hyprpanel.com/)
+-   **Terminal**: [Kitty](https://github.com/kovidgoyal/kitty)
+-   **Text editor**: [nvim](https://github.com/neovim/neovim)
+-   **File manager**: [Nautilus](https://apps.gnome.org/Nautilus/)
+-   **Application opener**: [wofi](https://man.archlinux.org/man/wofi.1.en)
+-   **Web browser**: [FireFox](https://www.mozilla.org/en-US/firefox/windows/)
+-   **Visual candy**: [cbonsai](https://github.com/hortinstein/cbonsai)
+-   **Shell**: [fish](https://github.com/fish-shell/fish-shell)
+-   **Bash Prompt**: [Starship Tokyo_night](https://starship.rs/)

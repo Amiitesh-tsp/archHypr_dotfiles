@@ -28,7 +28,7 @@
 <div align="center">
   
 # New Configuration
-![riceSS2]()
+![riceSS2](2024-11-02-214704_hyprshot.png)
 
 </div>
 
